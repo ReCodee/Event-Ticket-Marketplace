@@ -2,6 +2,15 @@ import React from 'react'
 import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
 function Header() {
+
+  const handleClick = () => {
+      if ( window.ethereum ) {
+
+      } else {
+        alert('install metamask');
+      }
+  }
+
   return (
     <div className='header'>
         <div className="header__left">
@@ -17,7 +26,9 @@ function Header() {
         <ul>
             <li><a class="navitem" href="">Discover</a></li>
             <li><a class="navitem" href="">Create Event</a></li>
-            <li><a class="navitem" href="">Connect Wallet</a></li>
+            <li onClick={() => {
+              handleClick()
+            }} ><a class="navitem" href="">Connect Wallet</a></li>
        </ul>
         </div>
     </div>
