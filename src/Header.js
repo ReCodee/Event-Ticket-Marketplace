@@ -15,7 +15,7 @@ function Header() {
     <div className='header'>
         <div className="header__left">
         <div className="logo">
-            <h1>NFT Ticketing</h1>
+            <h1>Event Ticket</h1>
             <h3>Marketplace</h3>
         </div>
         <div className="header__search">
