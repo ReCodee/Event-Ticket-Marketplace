@@ -6,7 +6,7 @@ function Header() {
     <div className='header'>
         <div className="header__left">
         <div className="logo">
-            <h1>NFT Ticketing</h1>
+            <h1>Event Ticket</h1>
             <h3>Marketplace</h3>
         </div>
         <div className="header__search">
@@ -15,9 +15,9 @@ function Header() {
          </div>
         <div className="header__right">
         <ul>
-            <li><a class="navitem" href="">Discover</a></li>
-            <li><a class="navitem" href="">Create Event</a></li>
-            <li><a class="navitem" href="">Connect Wallet</a></li>
+            <li><a class="navitem" href="/discover">Discover</a></li>
+            <li><a class="navitem" href="/createEvent">Create Event</a></li>
+            <li><a class="navitem" href="/connectWallet">Connect Wallet</a></li>
        </ul>
         </div>
     </div>
