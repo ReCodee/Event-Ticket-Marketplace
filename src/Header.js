@@ -15,8 +15,8 @@ function Header() {
          </div>
         <div className="header__right">
         <ul>
-            <li><a class="navitem" href="/discover">Discover</a></li>
-            <li><a class="navitem" href="/createEvent">Create Event</a></li>
+            <li><a class="navitem" href="/Discover">Discover</a></li>
+            <li><a class="navitem" href="/CreateEvent">Create Event</a></li>
             <li><a class="navitem" href="/connectWallet">Connect Wallet</a></li>
        </ul>
         </div>
