@@ -22,7 +22,11 @@
     flexDirection: 'row';
     flexWrap: 'wrap';
     padding: 0 200px 0 200px;
-  
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 100px; */
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 

@@ -24,8 +24,8 @@ function Header() {
          </div>
         <div className="header__right">
         <ul>
-            <li><a class="navitem" href="">Discover</a></li>
-            <li><a class="navitem" href="">Create Event</a></li>
+            <li><a class="navitem" href="/discover">Discover</a></li>
+            <li><a class="navitem" href="/createevent">Create Event</a></li>
             <li onClick={() => {
               handleClick()
             }} ><a class="navitem" href="">Connect Wallet</a></li>

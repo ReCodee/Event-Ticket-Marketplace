@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import Discover from './Discover';
 import Header from './Header';
+import CreateEvent from './CreateEvent';
 function App() {
   return (
     <Router>
@@ -15,10 +16,13 @@ function App() {
             <Route path = '/discover' element = {<Discover/>}/>
         </Routes>
         <Routes>
-            <Route path = '/createEvent' element = {<createEvent/>}/>
+            <Route path = '/' element = {<Discover/>}/>
         </Routes>
         <Routes>
-            <Route path = '/connectWallet' element = {<connectWallet/>}/>
+            <Route path = '/CreateEvent' element = {<CreateEvent/>}/>
+        </Routes>
+        <Routes>
+            <Route path = '/ConnectWallet' element = {<connectWallet/>}/>
         </Routes>
     </Router>
   )
